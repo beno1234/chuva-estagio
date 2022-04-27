@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+header{
+    display: block;
+    background-color: #FDF1EB;
+}
+
+header h3{
+    font: 14px;
+    position: relative;
+    padding-left: 250px;
+    font-weight: normal;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+header h1{
+    position: relative;
+    padding-top: 5px;
+    padding-left: 250px;
+    font-weight: normal;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+header p{
+    position: relative;
+    padding: 2px;
+    padding-left: 250px;
+    font-weight: normal;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.nav-bar{
+    position: absolute;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    bottom: 613px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar img{
+    width: 220px;
+    height: 258px;
+}
+
+.texto-titulo{
+    position: static;
+    width: 220px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.slaca{
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    color: #fff;
+    width: 220px;
+    height: 68px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.slaca h1{
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    height: 536px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desativado{
+    height: 35px;
+    padding-left: 15px;
+    list-style: none;
+    border-bottom: #E7E7E7 2px solid;
+    line-height: 2.0;
+}
+
+.ativado{
+    width: 220px;
+    height: 35px;
+    padding-left: 15px;
+    border-bottom: #E7E7E7 2px solid;
+    line-height: 2.0;
+}
+
+.destacado{
+    background: #FDF1EB;
+}
+
+.barrinha{
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+    width: 5px;
+    height: 33px;
+    position: absolute;
+    left: 0%;
+    right: 97.73%;
+    top: 465px;
+}
+
+.side-bar-shadow{
+    width: 220px;
+    height: 625px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desativado p{
+    color: #725C5C;
+}
+
+select{
+    position: absolute;
+width: 97px;
+height: 34px;
+left: 789px;
+top: 17px;
+}

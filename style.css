@@ -7,17 +7,21 @@
 
 body{
     height: 100%;
+    font-family: 'Quicksand';font-size: 22px;
 }
 
 header{
-    display: block;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: #FDF1EB;
+    padding: 0 236px;
 }
 
 header h3{
     font: 14px;
     position: relative;
-    padding-left: 250px;
     font-weight: normal;
     font-family: 'Roboto';
     font-style: normal;
@@ -30,7 +34,6 @@ header h3{
 header h1{
     position: relative;
     padding-top: 5px;
-    padding-left: 250px;
     font-weight: normal;
     font-family: 'Roboto';
     font-style: normal;
@@ -42,8 +45,6 @@ header h1{
 
 header p{
     position: relative;
-    padding: 2px;
-    padding-left: 250px;
     font-weight: normal;
     font-family: 'Roboto';
     font-style: normal;
@@ -83,7 +84,7 @@ header p{
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     color: #fff;
     width: 220px;
-    height: 68px;
+    height: 70px;
     position: absolute;
     left: 0%;
     right: 0%;
@@ -110,22 +111,21 @@ header p{
 
 
 .side-bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 220px;
     padding: 0px;
-    position: absolute;
-    height: 536px;
-    left: 0%;
-    right: 0%;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    right: 0;
+    float: left;
     top: 0px;
-    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 .menu{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 .desativado{
@@ -151,31 +151,118 @@ header p{
 .barrinha{
     background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
     width: 5px;
-    height: 33px;
+    height: 35px;
     position: absolute;
     left: 0%;
     right: 97.73%;
     top: 465px;
 }
 
-.side-bar-shadow{
-    width: 220px;
-    height: 625px;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-}
+
 
 .desativado p{
     color: #725C5C;
 }
 
-select{
-    position: absolute;
-width: 97px;
-height: 34px;
-left: 789px;
-top: 17px;
+.titulo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
+
+.simposio{
+    flex: 3;
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.simposio span{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.issn{
+    display: flex;
+    flex-direction: row;
+    line-height: 2.0;
+    font-size: 12px;
+    margin: 0 14px 0 0;
+}
+/*
+.lingua{
+    position: relative;
+}
+
+button{
+    overflow: visible;
+}
+
+.traducao{
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: black;
+    border: #ccc;
+
+}
+
+.local{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+
+}
+*/
+
+.languages-dropdown .btn{
+    background-color: transparent;
+}
+
+.btn-sm, .btn-group-sm > .btn{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+
+
+

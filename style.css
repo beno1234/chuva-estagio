@@ -16,7 +16,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 20vh 60vh 10vh;
+    grid-template-rows: 15vh 300vh 30vh;
 }
 
 
@@ -26,13 +26,13 @@ body{
 }
 
 .slaca h1{
-    position: absolute;
-    left: 1%;
-    top: 2.6%;
+    align-items: center;
+    line-height: 2.3;
     color: #FFFF;
     font: 'Roboto';
     font-size: 30px;
     font-weight: 700;
+    text-align: center;
 }
 
 .img{
@@ -57,7 +57,6 @@ body{
 }
 
 .ativado{
-    width: 220px;
     height: 35px;
     padding-left: 15px;
     border-bottom: #E7E7E7 2px solid;
@@ -78,13 +77,6 @@ body{
     top: 465px;
 }
 
-
-
-
-
-
-
-
 .row{
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr;
@@ -103,8 +95,9 @@ body{
     padding: 5px 10px;
 }
 
-
-
+.botao{
+    float: right;
+}
 button{
     border: 1px solid #ccc;
 }
@@ -229,18 +222,211 @@ nav{
 }
 
 main{
-    width: 600px;
-    background: blue;
-    height: 270px;
+    width: 800px;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin: 0 50px;
+    margin: 0 20px;
 }
+
+
+.video span{  
+    max-width: 100px;
+    position: relative;
+    height: 54px;
+    left: 20px;
+    top: 40px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.content{
+    font-size: 20px;
+    color: #ED7839;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 25px;
+}
+
+.video{
+    margin-top: 20px;
+    background-size: 100% 100%;
+    width: 783px;
+    height: 439px;
+    background-image: url(img/video.png);
+}
+
+.foto-video{
+    position: relative;
+    left: 30px;
+    top: 13rem;
+    width: 74.85px;
+    height: 77.49px;
+    border-radius: 50%;
+    margin: 15px 2px;
+    padding-top: 10px;
+    border: 3px solid #F5F5F5;
+    background-image: url(img/senhor.jpg);
+    background-size: 100% 100%;
+}
+
+
+.foto-texto{
+    position: relative;
+height: 36px;
+left: 110px;
+top: 85px;
+
+}
+
+.paragrafo-resumo{
+    margin: 10px 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: #5C5C5C;
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.foto-texto span .oi {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 1028px;
+    padding: 10px;
+    background: #FDF1EB;
+border: 1px solid #ECECEC;
+box-sizing: border-box;
+border-radius: 3px 3px 0px 0px;
+}
+
+.resumo-ret{
+    position: relative;
+    width: 1028px;
+    left: 1px;
+    top: 30px;
+    height: 520px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.discussao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    margin-top: 50px;
+    width: 1028px;
+    padding: 10px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.Discussao-ret{
+    position: relative;
+    width: 1028px;
+    left: 1px;
+    height: 250px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.Discussao-ret p{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+    margin: 10px 0;
+}
+
+
+.Discussao-ret .fa-2x{
+    position: relative;
+    width: 50.26px;
+    height: 48.94px;
+    left: 360px;
+    top: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.detalhes-disc p{
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+}
+
+.criar-topico{
+    position: absolute;
+    width: 133px;
+    height: 32px;
+    left: 443px;
+    top: 230px;
+}
+
+.topico-button{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    border-radius: 4px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+
+
+
 
 aside{
     background: green;
     height: 270px;
-    margin: 0 60px;
+    margin: 70px 20px;
 }
 
 
